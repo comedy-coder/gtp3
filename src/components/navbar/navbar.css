@@ -1,3 +1,87 @@
 .App__navbar {
     width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    color: #fff;
+    font-family: var(--font-family);
+    padding: 2rem 4rem;
 }
+.navbar_logo{
+    width: 50px;
+    height: 50px;
+    color: #fff;    
+    margin-left: 1rem;
+    filter: invert(81%) sepia(72%) saturate(2090%) hue-rotate(20deg) brightness(100%) contrast(91%);
+
+}
+.App__navbar-links{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+   font-family: var(--font-family);
+   font-size: 18px;
+    line-height: 25px;
+   
+}
+.App__navbar-links li{
+ margin: 0 1.5rem;
+ cursor: pointer;
+
+}
+.App__navbar-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+
+}
+.navbar-signin {
+    background-color: transparent;
+    border-style: none;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    color: #fff;
+    font-weight: 500;
+font-size: 18px;
+
+    margin-right: 1rem;
+}
+.navbar-signup {
+    background-color: #FF4820;
+    padding: 1rem 2rem;
+    border-style: none;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+font-size: 18px;
+
+border-radius: 5px;
+}
+.App__navbar-smallscreen{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .App__navbar-links {
+        display: none;
+    }
+    .App__navbar-smallscreen{
+        display: flex;
+    }
+    
+  }
+@media screen and (max-width: 700px) {
+    .section__padding {
+      padding: 4rem;
+    }
+  
+    .section__margin {
+      margin: 4rem;
+    }
+  }
