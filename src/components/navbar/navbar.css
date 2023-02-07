@@ -60,9 +60,10 @@ font-size: 18px;
 border-radius: 5px;
 }
 .App__navbar-smallscreen{
-    display: flex;
+    display: none;
     align-items: center;
-    
+    position: relative;
+    margin : 0 2rem;
 
 }
 
@@ -85,3 +86,14 @@ border-radius: 5px;
       margin: 4rem;
     }
   }
+
+.App__navbar-smallscreen-layout{ 
+    position: absolute;
+    top : 50px;
+    width: 50%;
+
+}
+.App__navbar-smallscreen-layout li{
+    list-style: none;
+    margin: 1rem 0;
+}

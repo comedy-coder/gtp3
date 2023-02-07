@@ -9,11 +9,11 @@ const Navbar = () => {
     <nav className='App__navbar gradient__bg '>
       <img src={logo} alt="logo"  className='navbar_logo'/>
       <ul className='App__navbar-links'>
-        <li >Home</li>
-        <li >What is GPT?</li>
-        <li >Open AI</li>
-        <li >Case Studies</li>
-        <li >Libary</li>
+        <li ><a href='#home'>Home</a></li>
+        <li ><a href='#home'>What is GPT?</a></li>
+        <li ><a href='#home'>Open AI</a></li>
+        <li ><a href='#home'>Case Studies</a></li>
+        <li ><a href='#home'>Libary</a></li>
       </ul>
       <div className='App__navbar-login'>
         <button type='button' className='navbar-signin'>Sign in</button>
@@ -27,11 +27,11 @@ const Navbar = () => {
         <div className= 'App__navbar-smallscreen-layout'>
            
       <ul className='App__navbar-links-smallscreen'>
-        <li >Home</li>
-        <li >What is GPT?</li>
-        <li >Open AI</li>
-        <li >Case Studies</li>
-        <li >Libary</li>
+        <li ><a href='#home'>Home</a></li>
+        <li ><a href='#home'>What is GPT?</a></li>
+        <li ><a href='#home'>Open AI</a></li>
+        <li ><a href='#home'>Case Studies</a></li>
+        <li ><a href='#home'>Libary</a></li>
       </ul>
     
 
